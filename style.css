@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+:root {
+    --cor1:#010326;
+    --cor2:#020659;
+    --cor3:#CA1710;
+    --font-principal:'Francois One', sans-serif;
+}
+
+body {
+    background-image: url(img/Shang-Chi.jpg);
+    background-position: center center;
+}
+
+header {
+    background-color: #0103265d;
+    min-height: 50px; 
+}
+
+#abc {
+    text-align: center;
+    background-color: #0103265d;
+    height: 50px;
+}
+
+nav {
+    padding: 15px;
+}
+
+nav > a {
+    font-family: var(--font-principal);
+    text-decoration: none;
+    padding-left: 20px;
+    color: var(--cor3);
+    font-size: 1.5em;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    color: white;
+    border-radius: 5px;
+}
+
+main {
+    text-align: center;
+}
+/*main  nav {
+    width: 600px;
+    padding: 15px;
+    background-color: #010326;
+    border-radius: 15px;
+    text-align: center;
+}
+
+main nav > a {
+    background-color: #010326;
+}
+*/
+iframe {
+    height: 630px;
+    width: 700px;
+    margin-top: 30px;
+}
